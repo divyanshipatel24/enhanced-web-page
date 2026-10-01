@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Learn how website performance and accessibility improve the user experience.">
+
+    <title>Web Performance & Accessibility</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Skip link for keyboard users -->
+    <a class="skip-link" href="#main-content">
+        Skip to main content
+    </a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="#home" class="logo" aria-label="WebImprove home">
+                Web<span>Improve</span>
+            </a>
+
+            <nav aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#performance">Performance</a></li>
+                    <li><a href="#accessibility">Accessibility</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">BETTER WEBSITES FOR EVERYONE</p>
+
+                    <h1>Fast, Accessible &amp; User-Friendly Websites</h1>
+
+                    <p class="hero-description">
+                        Build better digital experiences by improving website
+                        speed, writing semantic HTML, and making content
+                        accessible to everyone.
+                    </p>
+
+                    <a href="#performance" class="button">
+                        Explore Improvements
+                    </a>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="images/hero-image.webp"
+                        alt="Illustration representing website design and development"
+                        width="600"
+                        height="400"
+                        fetchpriority="high"
+                        decoding="async">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Performance Section -->
+        <section class="section" id="performance">
+            <div class="container">
+                <p class="eyebrow">SPEED MATTERS</p>
+
+                <h2>Website Performance</h2>
+
+                <p class="section-intro">
+                    A well-optimized website loads efficiently, responds
+                    smoothly, and provides a better experience across devices.
+                </p>
+
+                <div class="card-grid">
+
+                    <article class="info-card">
+                        <div class="card-icon" aria-hidden="true">⚡</div>
+                        <h3>Faster Loading</h3>
+                        <p>
+                            Compress images, remove unnecessary code, and
+                            reduce large resources to improve loading speed.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon" aria-hidden="true">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>
+                            Use flexible layouts and responsive CSS so
+                            content works on phones, tablets, and desktops.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon" aria-hidden="true">🧹</div>
+                        <h3>Clean Code</h3>
+                        <p>
+                            Use reusable CSS rules, semantic HTML, and
+                            minimal unnecessary elements for easier maintenance.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Accessibility Section -->
+        <section class="section accessibility-section" id="accessibility">
+            <div class="container">
+                <p class="eyebrow">INCLUSIVE BY DESIGN</p>
+
+                <h2>Web Accessibility</h2>
+
+                <p class="section-intro">
+                    Accessibility helps people with different abilities
+                    navigate, understand, and interact with websites.
+                </p>
+
+                <div class="accessibility-content">
+                    <div class="accessibility-panel">
+                        <h3>Accessibility Best Practices</h3>
+
+                        <ul class="feature-list">
+                            <li>Use semantic HTML elements.</li>
+                            <li>Add meaningful alternative text to images.</li>
+                            <li>Maintain readable text and color contrast.</li>
+                            <li>Support keyboard navigation and visible focus.</li>
+                            <li>Label form controls clearly.</li>
+                            <li>Use ARIA only when native HTML is insufficient.</li>
+                        </ul>
+                    </div>
+
+                    <div class="accessibility-panel highlight-panel">
+                        <h3>Our Goal</h3>
+
+                        <p>
+                            Every visitor should be able to access the
+                            information they need, regardless of their
+                            device or abilities.
+                        </p>
+
+                        <a href="#about" class="text-link">
+                            Learn about our approach →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container about-content">
+                <p class="eyebrow">CONTINUOUS IMPROVEMENT</p>
+
+                <h2>Build a Better Web Experience</h2>
+
+                <p>
+                    Performance and accessibility work together to create
+                    websites that are easier to use, faster to load, and
+                    more inclusive. Test your website regularly with tools
+                    such as Lighthouse, WAVE, and axe DevTools.
+                </p>
+
+                <a href="#home" class="button">Back to Top</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                &copy; 2026 WebImprove. Created for the Week 4
+                Web Performance and Accessibility Task.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
